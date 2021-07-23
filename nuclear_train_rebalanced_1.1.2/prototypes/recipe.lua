@@ -12,7 +12,6 @@ data:extend(
       {"steel-plate", 100},
       {"electric-engine-unit", 20},
       {"low-density-structure", 60},
-      {"nuclear-reactor", 1}
     },
     result = "Nuclear_Train"
   }

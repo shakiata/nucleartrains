@@ -4,12 +4,12 @@ nuctrain.max_health = 2350;
 nuctrain.minable.result = "Nuclear_Train";
 nuctrain.weight = 2200;
 -- nuctrain.max_speed = 2.87037037; 
-nuctrain.max_speed = 3; -- Speed 400Km/h
-nuctrain.max_power = "2100kW";
-nuctrain.reversing_power_modifier = 0.8;
+nuctrain.max_speed = 4; -- Speed 400Km/h
+nuctrain.max_power = "21000kW";
+nuctrain.reversing_power_modifier = 1;
 nuctrain.corpse = "locomotive-remnants";
 nuctrain.dying_explosion = "locomotive-explosion";
-nuctrain.braking_force = 15.5;
+nuctrain.braking_force = 25;
 nuctrain.connection_distance = 3;
 nuctrain.joint_distance = 4;
 nuctrain.color = {r = 0, g = 1, b = 0, a = 0.5}
@@ -25,10 +25,10 @@ nuctrain.burner =
 
 
 -- Cargo wagon max speed modifier
-data.raw["cargo-wagon"]["cargo-wagon"].max_speed = 2.8
+data.raw["cargo-wagon"]["cargo-wagon"].max_speed = 4
 -- Fluid wagon max speed modifier
-data.raw["fluid-wagon"]["fluid-wagon"].max_speed = 2.8
+data.raw["fluid-wagon"]["fluid-wagon"].max_speed = 4
 -- Artillery wagon max speed modifier
-data.raw["artillery-wagon"]["artillery-wagon"].max_speed = 2.8
+data.raw["artillery-wagon"]["artillery-wagon"].max_speed = 4
 
 data:extend({nuctrain})
